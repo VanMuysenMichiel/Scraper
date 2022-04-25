@@ -4,7 +4,6 @@ from time import time, sleep
 import logging 
 
 x = 0
-today = date.today()
 
 while True:
     r = requests.get("https://www.blockchain.com/btc/unconfirmed-transactions")
