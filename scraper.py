@@ -24,9 +24,7 @@ while True:
     output = [hashes[index],times[index],str(BTC[index])+" BTC",USD[index]]
     if x == 0:
       logging.basicConfig(filename='VanMuysenMichiel.log', format='%(message)s', filemode='w')
-      logger=logging.getLogger()
     if x > 0:
-      print(output)
       with open('VanMuysenMichiel.log', 'a') as f:
         f.writelines('\n'.join(output))
         f.writelines('\n')
