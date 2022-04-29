@@ -1,5 +1,5 @@
 # Scraper
-Scraper Bitcoin Van Muysen Michiel
+Scraper Bitcoin on Windows Van Muysen Michiel
 
 Nodige vereiste : 
 - python (nieuwst mogelijke versie)
